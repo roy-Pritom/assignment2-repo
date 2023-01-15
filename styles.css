@@ -130,6 +130,13 @@ span{
     justify-content:center ;
     gap:80px;
 }
+.tittle-sidebar{
+    display: flex;
+}
+.sidebar{
+    border-left:5px solid var(--secondary-color);
+    height: 90px;
+}
 .feature-infobox{
     height:175px;
     width: 350px;
@@ -190,10 +197,19 @@ Third section notifications styles
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    
 }
 .notification-box:hover{
-    transform: rotate(-340deg);
-}
+    transform: rotate(-180deg);
+    width: 300px;
+    transition: width 1s,height 1s, transform 1s ease-out;
+    color: red;
+    background: #2196f3;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    border-style: none;
+   
+    }
 /* ----------------------------------
 Fourth section sponsors style       
 ------------------------------------*/
@@ -210,6 +226,7 @@ Fourth section sponsors style
     width: 100px;
     height:25px;
     margin-top: 40px;
+    filter:grayscale(1);
     
 }
 
