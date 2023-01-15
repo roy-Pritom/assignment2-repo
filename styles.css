@@ -244,7 +244,7 @@ Fourth section sponsors style
  /* ------------------------------------------------
      Media query for small devices   max-width:688px
  ----------------------------------------------------- */
- @media only screen and (max-width:688px) {
+  @media only screen and (max-width:688px) {
     .head{
         width: 100%;
         height: 100%;
@@ -384,4 +384,4 @@ Fourth section sponsors style
 
     }
     
- }
+ } 
