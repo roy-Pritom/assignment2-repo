@@ -307,7 +307,7 @@ Fourth section sponsors style
     font-size: 1.5em;
   }
   /* second section   feature details */
-  .second-section,.notifications-boxes{
+  .second-section{
     margin: 0;
     flex-direction: column;
     gap: 30px;
@@ -337,6 +337,11 @@ Fourth section sponsors style
     left:80px;
 }
   /* Third section notifications  */
+  .notifications-boxes{
+    margin: 0;
+    flex-direction: column;
+    gap: 30px;
+  }
   .third-section{
     margin-top: 20px;
   }
@@ -371,10 +376,12 @@ Fourth section sponsors style
    }
     /* footer section  */
     .footer{
-        margin:50px 0px 80px 50px ;
-        height: 100%;
-        padding: 15px;
-        width: 70%;
+    margin:50px 0px 80px 50px ;
+    height: 100%;
+    padding-bottom:15px;
+    padding-top:5px;
+    width: 70%;
+
     }
     
  }
