@@ -241,6 +241,34 @@ Fourth section sponsors style
     text-align: center;
     padding: 15px 0;
  }
+ .contact{
+    display: flex;
+    gap: 100px;
+    background: black;
+    padding: 130px 200px;
+}
+.contact .section-title,.section-description{
+    text-align: left;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.contact input[type="text"], input[type="email"], textarea{
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+input{
+    height: 64px;
+}
+
+.contact a{
+    text-decoration: none;
+}
+
+
  /* ------------------------------------------------
      Media query for small devices   max-width:688px
  ----------------------------------------------------- */
@@ -382,6 +410,23 @@ Fourth section sponsors style
     padding-top:5px;
     width: 70%;
 
+    }
+    .contact{
+        flex-direction: column;
+        gap: 0;
+        margin:0;
+        padding:10px;
+    }
+    .contact input[type="text"], input[type="email"], textarea
+    {
+        width: 50%;
+        height: 50%;
+       border-radius: 8px;
+    }
+    .contact input[type="submit"]
+    {
+        margin-top: 5px;
+        margin-bottom: 50px;
     }
     
  } 
